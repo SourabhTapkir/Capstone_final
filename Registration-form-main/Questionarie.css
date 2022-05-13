@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-size: cover;
+    background-position: center;
+    padding-left: 25px;
+    font-size: 17px;
+    font-weight: bolder;
+    background-color: #54b98a
+    
+}
+.scroll-top{
+    position: fixed;
+    right: 1rem;
+    bottom: 50rem;   
+    display: inline-flex;
+    padding: .5rem;
+    border-radius: .25rem;
+    z-index: 99;
+    opacity: .8;
+    transition: .4s;
+  }
+  .show-scroll{
+    bottom: 3rem;
+}
+.scroll-top img{
+    height: 100px;
+    
+}
